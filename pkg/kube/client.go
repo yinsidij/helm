@@ -62,7 +62,7 @@ import (
 	watchtools "k8s.io/client-go/tools/watch"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/validation"
-	"k8s.io/kubernetes/pkg/kubectl/cmd/get"
+	"k8s.io/kubectl/pkg/kubectl/cmd/get"
 )
 
 // MissingGetHeader is added to Get's output when a resource is not found.
